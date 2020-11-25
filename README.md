@@ -19,6 +19,8 @@ This document contains the following details:
 
 ### Description of the Topology
 
+![Network Diagram](https://github.com/NBlanks525/NB-Project1/blob/main/Diagrams/NoelleBlanksProject1NetworkTop.jpg
+
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly availabilty, in addition to restricting traffic to the network.
