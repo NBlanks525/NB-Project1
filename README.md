@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 [ELK Installation YAML File](https://github.com/NBlanks525/NB-Project1/blob/main/Ansible/Install_ELK.yml)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ymal file may be used to install only certain pieces of it, such as Filebeat.
 
   - etc/ansible/install-elk.yml
 
@@ -31,7 +31,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
   Metricbeat takes the metrics and statistics that collects and ships them to the output you specify. 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tmarkdown_tablesablesgenerator.com/) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -65,7 +64,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The main advantage is that you can put commands into multiple servers from a single playbook.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - install docker.io 
 - install python-pip
 - install docker 
