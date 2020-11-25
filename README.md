@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK Installation YAML File](https://github.com/NBlanks525/NB-Project1/blob/main/Ansible/Install_ELK.yml)
+[ELK Installation YAML File](https://github.com/NBlanks525/NB-Project1/blob/main/Ansible/Install_ELK.yml)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -19,7 +19,7 @@ This document contains the following details:
 
 ### Description of the Topology
 
-![Network Diagram](https://github.com/NBlanks525/NB-Project1/blob/main/Diagrams/NoelleBlanksProject1NetworkTop.jpg
+![Network Diagram](https://github.com/NBlanks525/NB-Project1/blob/main/Diagrams/NoelleBlanksProject1NetworkTop.jpg)
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
