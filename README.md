@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 [ELK Installation YAML File](https://github.com/NBlanks525/NB-Project1/blob/main/Ansible/Install_ELK.yml)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ymal file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
   - etc/ansible/install-elk.yml
 
@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 | Web 1    | Webserver| 10.0.0.5   | Linux            |
 | Web 2    | Webserver| 10.0.0.6   | Linux            |
 | ElkVM    | VM       | 10.1.0.4   | Linux           
-|
+
 
 ### Access Policies
 
@@ -93,15 +93,14 @@ SSH into the control node and follow the steps below:
 - Update the config file to include...
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_ 
+- Which file is the playbook? Where do you copy it?_ 
    /etc/ansible/files/filebeat-config.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine?
+- Which file do you update to make Ansible run the playbook on a specific machine?
    /etc/ansible/host file 
  How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
   
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Which URL do you navigate to in order to check that the ELK server is running?
 168.62.216.232:5601/app/kibana 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-ansible-playbook (name of the playbook file)
+ansible-playbook 
